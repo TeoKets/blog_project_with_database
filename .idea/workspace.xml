@@ -4,39 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="571fd946-2ccb-4098-952a-e8035527d04d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/Day-69.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/requirements_3.13.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/img/about-bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/img/angela-profile.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/img/contact-bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/img/default-profile.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/img/edit-bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/img/home-bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/img/login-bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/img/post-bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/img/register-bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/scripts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/about.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/contact.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/footer.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/header.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/make-post.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/post.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/register.html" afterDir="false" />
+    <list default="true" id="571fd946-2ccb-4098-952a-e8035527d04d" name="Changes" comment="completed a website blog with login, register, logout, comment, and post also a little bit of database">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/post.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/post.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/register.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +27,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "TeoKets"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/TeoKets/blog_project_with_database.git",
+    "accountId": "69cf3909-5899-4fa4-a3af-d971e01425b7"
+  }
+}]]></component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 7
 }]]></component>
@@ -95,6 +81,15 @@
       <option name="presentableId" value="Default" />
       <updated>1750088034493</updated>
     </task>
+    <task id="LOCAL-00001" summary="completed a website blog with login, register, logout, comment, and post also a little bit of database">
+      <option name="closed" value="true" />
+      <created>1750089077443</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1750089077443</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -119,5 +114,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="completed a website blog with login, register, logout, comment, and post also a little bit of database" />
+    <option name="LAST_COMMIT_MESSAGE" value="completed a website blog with login, register, logout, comment, and post also a little bit of database" />
   </component>
 </project>

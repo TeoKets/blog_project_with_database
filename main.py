@@ -1,11 +1,7 @@
-
-
 from datetime import date
 from flask import Flask, abort, render_template, redirect, url_for, flash
 from flask_bootstrap import Bootstrap
 from flask_ckeditor import CKEditor
-
-
 from flask_login import UserMixin, login_user, LoginManager, current_user, logout_user
 from flask_sqlalchemy import SQLAlchemy
 from sqlalchemy.exc import IntegrityError
@@ -24,7 +20,7 @@ ckeditor = CKEditor(app)
 Bootstrap(app)
 
 
-# TODO: Configure Flask-Login
+
 login_manager = LoginManager()
 login_manager.init_app(app)
 
@@ -83,7 +79,7 @@ class BlogPost(db.Model):
 
 
 
-# TODO: Create a User table for all your registered users.
+
 
 
 
@@ -106,7 +102,7 @@ with app.app_context():
 
 
 
-# TODO: Use Werkzeug to hash the user's password when creating a new user.
+
 @app.route('/register',methods=["GET","POST"])
 def register():
    form=RegisterForm()
@@ -128,7 +124,6 @@ def register():
 
 
 
-# TODO: Retrieve a user from the database based on their email.
 @app.route('/login',methods=["GET","POST"])
 def login():
    form=LoginForm()
@@ -175,7 +170,6 @@ def get_all_posts():
 
 
 
-# TODO: Allow logged-in users to comment on posts
 @app.route("/post/<int:post_id>",methods=["GET","POST"])
 def show_post(post_id):
    form = CommentForm()
@@ -195,7 +189,6 @@ def show_post(post_id):
 
 
 
-# TODO: Use a decorator so only an admin user can create a new post
 @app.route("/new-post", methods=["GET", "POST"])
 @admin_only
 def add_new_post():
